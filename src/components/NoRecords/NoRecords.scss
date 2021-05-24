@@ -1,0 +1,13 @@
+.NoRecords {
+  display: block;
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 24px;
+    padding-left: 16px;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    width: 100%;
+  }
+}

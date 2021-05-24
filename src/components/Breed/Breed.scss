@@ -1,0 +1,60 @@
+.Breed {
+
+  &__container {
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    background: #fafafa;
+    border: 1px #ddd solid;
+    border-radius: 5px;
+    vertical-align: middle;
+    overflow: hidden;
+    box-shadow: none;
+    transition: box-shadow .3s ease-out;
+    box-sizing: border-box;
+  }
+
+  &__image {
+    width: 33%;
+  }
+
+  &__img {
+    max-width: 100%;
+  }
+
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 67%;
+  }
+
+  &__name {
+    margin-top: 0;
+    margin-bottom: 24px;
+    padding-left: 16px;
+    font-size: 20px;
+    color: #333;
+    width: 100%;
+  }
+
+  &__parameter {
+    padding-left: 16px;
+    margin-bottom: 16px;
+  }
+
+  &__key {
+    font-size: 12px;
+    color: #999;
+  }
+
+  &__value {
+    font-size: 16px;
+    color: #333;
+  }
+
+}
+
+

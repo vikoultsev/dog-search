@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: block;
+  margin: 0 auto;
+  padding: 32px 24px 40px 24px;
+  max-width: 1024px;
+  border: 1px #ddd solid;
+  font-family: sans-serif;
+
+  &__headline {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 2;
+    color: #4a4a4a;
+  }
+
+  &__toolbar {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  &__table {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+}
+

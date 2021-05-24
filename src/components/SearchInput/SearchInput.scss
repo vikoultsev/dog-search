@@ -1,0 +1,48 @@
+.SearchInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 24px 48px 24px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  background-color: #e0eeff;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #4a90e2;
+
+  &__field {
+    width: 500px;
+  }
+
+  &__input {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 32px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: nowrap;
+    color: #666;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+
+    &:focus {
+      outline: none;
+      border-color: #4a90e2;
+    }
+
+    &:disabled {
+      background-color: #eee;
+      pointer-events: none;
+    }
+      
+    &::-ms-clear,
+    &::-ms-reveal {
+      display: none;
+    }
+  }
+}

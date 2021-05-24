@@ -1,0 +1,38 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    display: block;
+    padding: 0 2px;
+    width: 40px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 2px;
+    transition: background-color .3s ease-out;
+
+    &_disabled {
+      pointer-events: none;
+      background-color: #ccc;
+    }
+
+    &:not(:disabled):hover {
+      background-color: #6fabff;
+    }
+  }
+}
